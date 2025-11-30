@@ -59,6 +59,8 @@ with your real key.
 
 Call the function like this in another .js file:
 
+```
+
 import { transcribeAudio } from "./transcribe.js";
 
 async function run() {
@@ -68,6 +70,7 @@ async function run() {
 }
 
 run();
+```
 
 
 The script will automatically:
